@@ -58,21 +58,22 @@ else if( computerMove == 'kamień' && playerMove == 'nożyce'){
 
 else if( computerMove == 'kamień' && playerMove == 'kamień'){
     printMessage('remis!');
-
+}
 else if( computerMove == 'papier' && playerMove == 'nożyce'){
     printMessage('Ty wygrywasz!');
-
+}
 else if( computerMove == 'papier' && playerMove == 'kamień'){
     printMessage('Przegrywasz!');
-
+}
 else if( computerMove == 'papier' && playerMove == 'papier'){
     printMessage('remis!');
-
+}
 else if( computerMove == 'nożyce' && playerMove == 'kamień'){
     printMessage('Ty wygrywasz');
-
+}
 else if( computerMove == 'nożyce' && playerMove == 'papier'){
     printMessage('Przegrywasz!');
-
+}
 else if( computerMove == 'nożyce' && playerMove == 'nożyce'){
     printMessage('remis!');
+}
