@@ -18,6 +18,8 @@ else if(randomNumber == 3){
 }
 */
 
+
+/*
 function getMoveName(argMoveId){
     if(argMoveId == 1){
       return 'kamień';
@@ -44,8 +46,24 @@ function getMoveName(argMoveId){
       return 'nieznany ruch';
     }
   }
+*/
 
 printMessage('Mój ruch to: ' + computerMove);
+
+
+
+
+function displayResult(argComputerMove, argPlayerMove){
+    printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
+  
+    if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
+      printMessage('Ty wygrywasz!');
+    } else {
+      printMessage('Tym razem przegrywasz :(');
+    }
+  }
+
+
 
 
 
