@@ -50,7 +50,8 @@ function playGame() {
   let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.'); //2
   const playerMove = getMoveName(playerInput); //papier
   
-  displayResult();
+  displayResult(getMoveName(randomNumber) getMoveName(playerInput));
+    return function displayResult;
 }
   
 
