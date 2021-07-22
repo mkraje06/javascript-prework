@@ -1,4 +1,4 @@
-unction playGame(argPlayerMove) {
+function playGame(argPlayerMove) {
 const playerMove = getMoveName(argPlayerMove); //papier
   
     function getMoveName(argMoveId){ //argMoveId = 2
